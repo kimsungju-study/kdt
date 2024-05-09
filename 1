@@ -1,0 +1,29 @@
+# vars.yaml
+
+student_ID: "S00"
+
+vcenter_hostname: "200.200.200.251"
+vcenter_username: "S00@vclass.kh"
+vcenter_password: "VMware1!"
+
+datacenter_name: "KH"
+
+folder_prefix: "KH/vm/3.Students/"
+
+esxi_hostname: "200.200.200.250"
+esxi_password: "VMware1!"
+esxi_username: "root"
+
+public_net: "VM-200.200.200.x"
+
+portgroups:
+  - name: "Trunk"
+    vlan_id: 4095
+  - name: "SA-Mgmt"
+    vlan_id: 10
+  - name: "SA-Storage"
+    vlan_id: 11
+  - name: "SA-vMotion"
+    vlan_id: 12
+  - name: "SA-Prod"
+    vlan_id: 13
